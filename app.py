@@ -257,6 +257,3 @@ def view():
    
     # Send the file for download
     return send_file(output_path, as_attachment=True, download_name="final.xlsx")
-
-# if __name__ == "__main__":
-#     app.run(debug=True)
